@@ -334,7 +334,7 @@ div.timelineDate {
 
 /* Content block */
 
-div.content {
+body:not(.vinfo) > div.content {
   width: 55%;
   margin: 0 auto
 }
